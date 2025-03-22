@@ -1,0 +1,20 @@
+name: ev_hw1
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch
+  - pytorch-cuda
+  - pip
+  - torchaudio
+  - torchvision
+  - matplotlib
+  - pip:
+      - einops
+      - gdown
+      - imageio[ffmpeg]
+      - omegaconf
+      - plotly
+      - wandb
